@@ -1,0 +1,9 @@
+#MainNav li {width:12.45%;}
+#MainNav li a:hover {background-color:#d1d8cb;}
+
+#Aktuellt {border-bottom:1px solid #E7E5E0;border-right:1px solid #E7E5E0;}
+
+.lank-bild a {border:1px solid #E7E5E0;}
+
+.entry-body a img.alignleft, .entry-body a img.alignright, .entry-body a img.alignnone, .entry-body a img.aligncenter {border:1px solid #E7E5E0;}
+#Sidebar li.widget-container {border:none;margin-top:1px;}

@@ -1,0 +1,18 @@
+#MainNav li {width:12.45%;}
+#MainNav li a:hover {background-color:#d1d8cb;}
+
+.entry-title {font-size: 1.625em;}/* 26px */
+
+#Aktuellt {border-bottom:1px solid #E7E5E0;border-right:1px solid #E7E5E0;}
+
+.lank-bild a {border:1px solid #E7E5E0;}
+
+.entry-body a img.alignleft, .entry-body a img.alignright, .entry-body a img.alignnone, .entry-body a img.aligncenter {border:1px solid #E7E5E0;}
+
+.avatar {display:none;}
+
+#QuickInfo li.widget-container {width:23.3%;/* nja..210px */}
+
+#Footer #Etikettmoln {width:48.5%;}
+
+#Footer p.copy a.alignleft {border:none;padding:.5em;background:#0C2D3F;margin-right: .7857em; -webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;width:88px; height:31px;}
