@@ -12,17 +12,16 @@ Du är mer än välkommen att vidareutveckla dessa teman eller använda vissa de
 
 Temana använder [Responsive Design](http://www.alistapart.com/articles/responsive-web-design/) med ett "fluid grid" som har åtta kolumner.
 
-## Typsnitt
-[FF Meta Serif Web Pro](https://typekit.com/fonts/ff-meta-serif-web-pro) och [FF Meta Web Pro](https://typekit.com/fonts/ff-meta-web-pro) laddas från [typkit.com](http://typekit.com). Fast detta sker bara om webbläsaren har font-smoothing (_cleartype_ et al) påslaget:
+### Typsnitt
+[FF Meta Serif Web Pro](https://typekit.com/fonts/ff-meta-serif-web-pro) och [FF Meta Web Pro](https://typekit.com/fonts/ff-meta-web-pro) laddas från [typkit.com](http://typekit.com). Fast detta sker bara om webbläsaren har font-smoothing (_cleartype_ et al.) påslaget:
 
-	html.hasFontSmoothing-true body{… font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, serif;}
+	html.hasFontSmoothing-true body{ … font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, serif;}
 
-För webbläsare som inte har font-smoothing, saknar stöd för webbtypsnitt (`@font-face`), samt iPad och smartphones laddas en fallback fontstack:
+För webbläsare som inte har font-smoothing, saknar stöd för webbtypsnitt (`@font-face`), samt iPad och smartphones laddas en fallback font stack:
 
 	font-family: Georgia, Times, serif;
 
-
-## Plugins
+### Plugins
 
 ## Licens
 
