@@ -27,8 +27,20 @@ För webbläsare som inte har font-smoothing, saknar stöd för webbtypsnitt (`@
 
 Följande tilläggsmoduler är aktiva:
 
-* sdf
+* [Akismet](http://akismet.com/)
+* [All in One SEO Pack](http://semperfiwebdesign.com/)
+* [Binary Peak Content Management](http://binarypeak.se/) -- plugg som lägger till funktionalitet för [Staffanstorps officiella iOS-app](http://itunes.apple.com/tw/app/staffanstorp/id478960853?mt=8).
+* [Google Calendar Events](http://www.rhanney.co.uk/plugins/google-calendar-events) -- omstylad av mig.
+* [Page Excerpt](http://dennishoppe.de/wordpress-plugins/page-excerpt)
+* [Quick Cache](http://www.primothemes.com/post/product/quick-cache-plugin-for-wordpress/) -- rekommenderas varmt.
+* [Relevanssi Premium](http://www.relevanssi.com/)
+* [Simple Section Navigation Widget](http://www.cmurrayconsulting.com/software/wordpress-simple-section-navigation/)
+* [Unfiltered MU](http://wordpress.org/extend/plugins/unfiltered-mu/)
+* [WP-Paginate](http://www.ericmmartin.com/projects/wp-paginate/)
+
 
 ## Licens
 
 Utvecklat av [Johan Edlund](http://edlunddesign.com/) / [@pjedlund](http://twitter.com/pjedlund/). Du är fri att använda denna kod på vilket sätt som helst. [The Unlicense](http://unlicense.org/).
+
+Bilder, illustrationer och grafik är licensierade enligt [Creative Commons Erkännande-IckeKommersiell-DelaLika 3.0 Unported Licens](http://creativecommons.org/licenses/by-nc-sa/3.0/). [Staffanstorps licenspolicy](http://staffanstorp.se/om-webbplatsen/licens/).
