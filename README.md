@@ -25,7 +25,7 @@ För webbläsare som inte har font-smoothing, saknar stöd för webbtypsnitt (`@
 
 ## Sajtkarta
 
-Uppe i högra hörnet finns en länk som öppnar en sajtkarta. Om du missat den är du inte ensam… ;) För att få kartan så kompakt som möjligt används [David DeSandro](http://desandro.com)'s  [Masonry](http://masonry.desandro.com/. Sajtkartan är statisk eftersom det blev för svårt att hantera all databasanrop som krävs för att ha den dynamisk.
+Uppe i högra hörnet finns en länk som öppnar en sajtkarta. Om du missat den är du inte ensam… ;) För att få kartan så kompakt som möjligt används [David DeSandro](http://desandro.com)'s [Masonry](http://masonry.desandro.com/). Sajtkartan är statisk eftersom det blev för svårt att hantera all databasanrop som krävs för att ha den dynamisk.
 
 ## Plugins
 
