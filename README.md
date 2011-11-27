@@ -1,10 +1,10 @@
-# WordPress teman för Staffanstorp
+# WordPress teman för Staffanstorp.se
 
 ## Allmänt
 
 [Staffanstorps kommun](http://staffanstorp.se) är en WordPress(WP) [multisite](http://codex.wordpress.org/Create_A_Network) med ungefär 40 undersajter. För undersajterna används ett förenklat tema(_staffsubdoman_) baserat på huvuddomänens(_staff2_) tema.
 
-Du är mer än välkommen att vidareutveckla dessa teman eller använda vissa delar av koden här på samma sätt som det mesta i temana bygger på arbete som andra har utfört. För att nämna några tekniker som har använts:
+Du är mer än välkommen att vidareutveckla dessa teman eller använda vissa delar av koden här på samma sätt som det mesta i temana bygger på arbete som andra har utfört, t.ex.:
 
 * [HTML5 Boilerplate](http://html5boilerplate.com/): ([The Unlicense](http://unlicense.org/))
 * [320 and up](http://stuffandnonsense.co.uk/projects/320andup/): 
@@ -21,7 +21,13 @@ För webbläsare som inte har font-smoothing, saknar stöd för webbtypsnitt (`@
 
 	font-family: Georgia, Times, serif;
 
+[Zoltan Hawryluk](http://www.useragentman.com/blog/) har skrivit [Typehelpers](http://www.useragentman.com/blog/2009/11/29/how-to-detect-font-smoothing-using-javascript/) som undersöker stödet för font-smoothing.
+
 ### Plugins
+
+Följande tilläggsmoduler är aktiva:
+
+* sdf
 
 ## Licens
 
