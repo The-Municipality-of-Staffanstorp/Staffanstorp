@@ -2,7 +2,7 @@
 
 ## Allmänt
 
-[Staffanstorps kommun](http://staffanstorp.se) är en WordPress(WP) [multisite](http://codex.wordpress.org/Create_A_Network) med ungefär 40 undersajter. För undersajterna används ett förenklat tema(_staffsubdoman_) baserat på huvuddomänens(_staff2_) tema.
+[Staffanstorps kommun](http://staffanstorp.se) är en WordPress 3 [multisite](http://codex.wordpress.org/Create_A_Network) med ungefär 40 undersajter. För undersajterna används ett förenklat tema(_staffsubdoman_) baserat på huvuddomänens(_staff2_) tema.
 
 Du är mer än välkommen att vidareutveckla dessa teman eller använda vissa delar av koden här på samma sätt som det mesta i temana bygger på arbete som andra har utfört, t.ex.:
 
@@ -25,7 +25,7 @@ För webbläsare som inte har font-smoothing, saknar stöd för webbtypsnitt (`@
 
 ## Sajtkarta
 
-Uppe i högra hörnet finns en länk som öppnar en sajtkarta. Om du missat den är du inte ensam… ;) För att få kartan så kompakt som möjligt används [David DeSandro](http://desandro.com)'s [Masonry](http://masonry.desandro.com/). Sajtkartan är statisk eftersom det blev för svårt att hantera all databasanrop som krävs för att ha den dynamisk.
+Uppe i högra hörnet finns en länk som öppnar en sajtkarta. Om du missat den är du inte ensam… ;) För att få kartan så kompakt som möjligt används [David DeSandro](http://desandro.com)'s utmärkta [Masonry](http://masonry.desandro.com/). Sajtkartan är statisk eftersom det blev för svårt att hantera all databasanrop som krävs för att ha den dynamisk.
 
 ## Plugins
 
