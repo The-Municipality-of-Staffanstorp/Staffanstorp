@@ -23,6 +23,10 @@ För webbläsare som inte har font-smoothing, saknar stöd för webbtypsnitt (`@
 
 [Zoltan Hawryluk](http://www.useragentman.com/blog/) har skrivit [Typehelpers](http://www.useragentman.com/blog/2009/11/29/how-to-detect-font-smoothing-using-javascript/) som undersöker stödet för font-smoothing.
 
+## Sajtkarta
+
+Uppe i högra hörnet finns en länk som öppnar en sajtkarta. Om du missat den är du inte ensam… ;) För att få kartan så kompakt som möjligt används [David DeSandro](http://desandro.com)'s  [Masonry](http://masonry.desandro.com/. Sajtkartan är statisk eftersom det blev för svårt att hantera all databasanrop som krävs för att ha den dynamisk.
+
 ## Plugins
 
 Följande tilläggsmoduler är aktiva:
@@ -38,6 +42,9 @@ Följande tilläggsmoduler är aktiva:
 * [Unfiltered MU](http://wordpress.org/extend/plugins/unfiltered-mu/)
 * [WP-Paginate](http://www.ericmmartin.com/projects/wp-paginate/)
 
+## Javascript
+
+[jQuery](http://jquery.com) enqueue-as via functions.php och sedan är den flesta plugins samlade i js/staff.js.
 
 ## Licens
 
