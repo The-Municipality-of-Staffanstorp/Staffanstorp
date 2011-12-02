@@ -2,7 +2,7 @@
 Theme Name: Staffanstorp Blå
 Author: Johan Edlund
 Author URI: http://edlunddesign.com
-Version: 20111126
+Version: 20111202
 
 
 /* `Reset
@@ -902,7 +902,7 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	#Aktuellt .entry-meta{display:none;}
 	
 	/* entry */
-	div.entry div.entry-meta-wrapper {float:none;width:100%;margin:0;}
+	div.entry div.entry-meta-wrapper {float:none;width:auto;margin:0;}
 	div.entry .entry-body {clear:both;float:none;width:99%;padding:.1em 0 0 0;margin-left:0;}
 	div.entry h2.entry-title {font-size: 1.5em;padding-bottom:.1em;}
 	.entry-body p.lank-bild a img {width:100%;}
@@ -959,9 +959,9 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	#Aktuellt .entry-meta{display:none;}
 	#Aktuellt div.featureImage {float:none;width:100%;}
 
-	#Aktuellt .featureText {float:none; width:100%;}
+	#Aktuellt .featureText {float:none; width:auto;}
 	
-	#Main, #Sidebar {float:none;width:100%;}
+	#Main, #Sidebar {float:none;width:auto;}
 	
 	h3.entry-meta-verktyg, h3.entry-meta-dela, h3.entry-meta-bifogade {display: none;}
 	ul.entry-meta-blanketter, ul.entry-meta-tools {padding:.4em 0;margin:1em 0;background:transparent url(i/divider.gif) repeat-x 0 3px;}
@@ -973,8 +973,8 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	#respond textarea {height:10em;width:100%;}
 	
 	/* comments */
-	#comments .comment-text, .reply {float:none;width:100%;padding:0;margin-left:0;}
-	#comments ul.comment-meta {float:none;background:none;width:100%;clear:both;}
+	#comments .comment-text, .reply {float:none;width:auto;padding:0;margin-left:0;}
+	#comments ul.comment-meta {float:none;background:none;width:auto;clear:both;}
 	img.avatar{margin-left:0;}
 	#comments ol.children .avatar {margin-left:0;}
 	#comments ol.children ol.children .avatar {margin-left:0;}
@@ -984,8 +984,8 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	#Landskap2 {position:absolute;bottom:0; left:0;z-index: 200; height:200px;width:100%;background:transparent url(i/illustration-fram.png) repeat-x -80% 0;}
 
 	
-	#Footer #Etikettmoln {width:100%;float: none;margin: 0 0 1em 0;}
-	#Footer #AndraFooterWidget, #Footer #TredjeFooterWidget {width:100%; float:none;}
+	#Footer #Etikettmoln {width:auto;float: none;margin: 0 0 1em 0;}
+	#Footer #AndraFooterWidget, #Footer #TredjeFooterWidget {width:auto; float:none;}
 
 }/* end mediaquery */
 
