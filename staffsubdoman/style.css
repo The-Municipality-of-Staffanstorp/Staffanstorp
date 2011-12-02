@@ -252,7 +252,7 @@ h6{font-size: 1em;}/* 16px / 16px = 1em.. */
 
 
 /**** Table ****/
-table {width:100%;border-collapse: collapse;border: 1px solid #D6D5D1;margin:1.5em 0 1.6em 0;}
+table {width:auto;border-collapse: collapse;border: 1px solid #D6D5D1;margin:1.5em 0 1.6em 0;}
 caption {font-size: 1.25em;margin: 0 0 .8em 0;padding-top: .1em;text-align: left;}
 col {border-right: 1px solid #D6D5D1;}
 thead {color:#222;background: #E3EADD;border-top: 1px solid #ccc;border-bottom: 1px solid #D6D5D1;}
@@ -804,7 +804,7 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	#Aktuellt .entry-meta{display:none;}
 	
 	/* entry */
-	div.entry div.entry-meta-wrapper {float:none;width:100%;margin:0;}
+	div.entry div.entry-meta-wrapper {float:none;width:auto;margin:0;}
 	div.entry .entry-body {clear:both;float:none;width:99%;padding:.1em 0 0 0;margin-left:0;}
 	div.entry h2.entry-title {font-size: 1.5em;padding-bottom:.1em;}
 	.entry-body p.lank-bild a img {width:100%;}
@@ -831,7 +831,7 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	#HeaderWrapper {padding:.5em 2em 1em 2em;background:#E3EADD url(i/hgrafik.gif) -30% 20% repeat-x;}
 	#ContentWrapper{padding-bottom: 0;}
 	/* #ContentWrapperWrapper{margin-top: 1em;} */
-	#Logo {float:none;text-align:center;margin:0 auto;width:100%;padding-top:.5em;}
+	#Logo {float:none;text-align:center;margin:0 auto;width:auto;padding-top:.5em;}
 	#Logo span.logodiv {display:none;}
 	#Logo em {display:block;margin-top:.1em;width:100%;}
 	
@@ -841,12 +841,12 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	#Aktuellt {padding:.625em .625em 1em .625em;margin-top:1em;}
 	#Aktuellt .featureText h2 {font-size: 1.5em;padding:0;margin:.3em 0 0 0;}
 	#Aktuellt .entry-meta{display:none;}
-	#Aktuellt div.featureImage {float:none;width:100%;}
+	#Aktuellt div.featureImage {float:none;width:auto;}
 
-	#Aktuellt .featureText {float:none; width:100%;}
+	#Aktuellt .featureText {float:none; width:auto;}
 	
-	#Main, #Sidebar {float:none;width:100%;clear:both;}
-	#ContentWrapper #Sidebar {float:none;width:100%;clear:both;}
+	#Main, #Sidebar {float:none;width:auto;clear:both;}
+	#ContentWrapper #Sidebar {float:none;width:auto;clear:both;}
 	
 	h3.entry-meta-verktyg, h3.entry-meta-dela, h3.entry-meta-bifogade {display: none;}
 	ul.entry-meta-blanketter, ul.entry-meta-tools {padding:.4em 0;margin:1em 0;background:transparent url(i/divider.gif) repeat-x 0 3px;}
@@ -858,8 +858,8 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	#respond textarea {height:10em;width:100%;}
 	
 	/* comments */
-	#comments .comment-text, .reply {float:none;width:100%;padding:0;margin-left:0;}
-	#comments ul.comment-meta {float:none;background:none;width:100%;clear:both;}
+	#comments .comment-text, .reply {float:none;width:auto;padding:0;margin-left:0;}
+	#comments ul.comment-meta {float:none;background:none;width:auto;clear:both;}
 	img.avatar{margin-left:0;}
 	#comments ol.children .avatar {margin-left:0;}
 	#comments ol.children ol.children .avatar {margin-left:0;}
@@ -869,8 +869,8 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	#Landskap2 {position:absolute;bottom:0; left:0;z-index: 200; height:200px;width:100%;background:transparent url(i/illustration-fram.png) repeat-x -80% 0;}
 
 	
-	#Footer #Etikettmoln {width:100%;float: none;margin: 0 0 1em 0;}
-	#Footer #AndraFooterWidget, #Footer #TredjeFooterWidget {width:100%; float:none;}
+	#Footer #Etikettmoln {width:auto;float: none;margin: 0 0 1em 0;}
+	#Footer #AndraFooterWidget, #Footer #TredjeFooterWidget {width:auto; float:none;}
 
 }/* end mediaquery */
 
