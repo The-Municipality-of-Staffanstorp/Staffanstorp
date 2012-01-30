@@ -124,6 +124,9 @@ if (function_exists('has_parent') && !is_search()){
 
 <h1 id="Logo"><a tabindex="1" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 
+<!-- Staffanstorp 60 -->
+<a href="http://staffanstorp.se/vision/om-kommunen/60-2/" title="Staffanstorp fyller 60 år!" class="sixty">Staffanstorp 60 år!</a>
+
 <!-- Search -->
 <?php include( TEMPLATEPATH . '/searchform.php' ); ?>
 
