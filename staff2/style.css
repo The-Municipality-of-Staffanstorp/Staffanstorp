@@ -2,7 +2,7 @@
 Theme Name: Staffanstorp Blå
 Author: Johan Edlund
 Author URI: http://edlunddesign.com
-Version: 20120130
+Version: 20120203
 
 
 /* `Reset
@@ -543,17 +543,20 @@ ul.prickar li.gul-pil, h3.gul-pil  {background: url(i/prickar/gul-prick-med-en-p
 #MainKontakt li h4 {text-indent: 0;font-size: .875em;background-position: 4px -2038px;padding-left:1.8em;}
 #MainKontakt li h4 a {color:#666;border: none;}
 #MainKontakt li h4 a:hover{color:#2e81b6;border: none;background: none;}
-#MainKontakt ul.wrapper p {font-family: Helvetica, Arial, sans-serif;font-size: 1.0625em; /* 18px */ padding:0 .3846em .5em .3846em;margin:0;line-height: 1.5em;color: #333;}
-html.hasFontSmoothing-true #MainKontakt  p {font-family: "ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif;}
+#MainKontakt ul.wrapper p {font-size: 1em; /* 16px */ padding:.5em .3846em .5em .3846em;margin:0;line-height: 1.5em;color: #333;}
+/* html.hasFontSmoothing-true #MainKontakt  p {font-family: "ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif;} */
 #MainKontakt ul.wrapper p em {font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, serif;color:#888;margin-right:.1em;font-size: .9em; font-style: italic;}
 #MainKontakt ul.wrapper p em acronym {font-style: italic;}
 
-#MainKontakt ul.wrapper .box {display:block;padding:.705882353em 1em .705882353em 1.470588235em;border-bottom:none;margin:.8em 0 0 0;background-color: #ffffff;background-image: -webkit-gradient(radial, 50% 50%,200,50% 50%,20, from(rgb(249, 249, 249)), to(rgb(255, 255, 255)));background-image: -webkit-radial-gradient(50% 50%, rgb(255, 255, 255), rgb(249, 249, 249));background-image: -moz-radial-gradient(50% 50%, rgb(255, 255, 255), rgb(249, 249, 249));background-image: -ms-radial-gradient(50% 50%, rgb(255, 255, 255), rgb(249, 249, 249));background-image: radial-gradient(50% 50%, rgb(255, 255, 255), rgb(249, 249, 249));-webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;min-height: 13.764705882em; /* 234px? */-webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;transition: all 0.2s ease;}
+#MainKontakt ul.wrapper .box {display:block;padding:.705882353em 1em .705882353em 1em;border-bottom:none;margin:.8em 0 0 0;background-color: #ffffff;background-image: -webkit-gradient(radial, 50% 50%,200,50% 50%,20, from(rgb(249, 249, 249)), to(rgb(255, 255, 255)));background-image: -webkit-radial-gradient(50% 50%, rgb(255, 255, 255), rgb(249, 249, 249));background-image: -moz-radial-gradient(50% 50%, rgb(255, 255, 255), rgb(249, 249, 249));background-image: -ms-radial-gradient(50% 50%, rgb(255, 255, 255), rgb(249, 249, 249));background-image: radial-gradient(50% 50%, rgb(255, 255, 255), rgb(249, 249, 249));-webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;min-height: 12.875em; /* 206px? */}
 #MainKontakt ul.wrapper .box:hover {background:#fff;color:#222;background-image:none;}
-#MainKontakt ul.wrapper .boxBild {padding:.294117647em 0 0 0;}/* match min-height of .box for image */
+#MainKontakt ul.wrapper .bildBox {padding:6px;margin:.8em 0 0 0;}
 
 #MainKontakt #Kontaktpersoner {width:48%; float:left;font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, serif;}
 #MainKontakt #Synpunkter {width:48%; float:right;font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, serif;}
+
+#MainKontakt #Synpunkter a img.alignright {width:47.5%;}
+#MainKontakt #Synpunkter p {margin-top:1.3em;}
 
 
 ul.rss li{margin-left:.5em;list-style:none;padding-left:1.5em; background: url(i/feed.png) 0 4px no-repeat;}
@@ -586,6 +589,8 @@ ul.rss li{margin-left:.5em;list-style:none;padding-left:1.5em; background: url(i
 #comments .comment-meta  li cite, div.comment-meta cite {font-style:normal;}
 #comments .comment-meta a {border:none;color:#6A7A56;text-transform: uppercase;font-style:normal;font-size:1em;letter-spacing: .083333em;border:none;margin:0; padding:0;}
 #comments .comment-meta a:hover {color:#333;border-bottom: 1px solid #ccc;}
+
+/* .comments-text p {font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, serif;} */
 
 /* pingback & trackback */
 p.pingbackdate {background-image: none; margin:0;line-height: 2em;color:#666;font-style:normal;font-size:.75em;letter-spacing: .083333em;border:none;padding:0;}
@@ -951,6 +956,12 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	
 	/* Sidebar */
 	/* #Sidebar, #Main {padding-top: 0;} */
+	
+    /* Kontaktsida --> full bredd */
+    #MainKontakt li.widget-container {width:auto;float: none;min-height: none;}
+    #MainKontakt #Kontaktpersoner, #MainKontakt #Synpunkter {width:auto; float:none;}
+	
+	#MainKontakt ul.wrapper .box {min-height: 1em;}
 	
 	#comments .comment-text, .reply {float:right;width:58%;padding:0 2% 0 0;margin-left:1%;}
 
