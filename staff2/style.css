@@ -2,7 +2,7 @@
 Theme Name: Staffanstorp Blå
 Author: Johan Edlund
 Author URI: http://edlunddesign.com
-Version: 20120203
+Version: 20120206
 
 
 /* `Reset
@@ -545,8 +545,8 @@ ul.prickar li.gul-pil, h3.gul-pil  {background: url(i/prickar/gul-prick-med-en-p
 #MainKontakt li h4 a:hover{color:#2e81b6;border: none;background: none;}
 #MainKontakt ul.wrapper p {font-size: 1em; /* 16px */ padding:.5em .3846em .5em .3846em;margin:0;line-height: 1.5em;color: #333;}
 /* html.hasFontSmoothing-true #MainKontakt  p {font-family: "ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif;} */
-#MainKontakt ul.wrapper p em {font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, serif;color:#888;margin-right:.1em;font-size: .9em; font-style: italic;}
-#MainKontakt ul.wrapper p em acronym {font-style: italic;}
+#MainKontakt ul.wrapper em {font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia, serif;color:#888;margin-right:.1em;font-size: .9em; font-style: italic;}
+#MainKontakt ul.wrapper em acronym {font-style: italic;}
 
 #MainKontakt ul.wrapper .box {display:block;padding:.705882353em 1em .705882353em 1em;border-bottom:none;margin:.8em 0 0 0;background-color: #ffffff;background-image: -webkit-gradient(radial, 50% 50%,200,50% 50%,20, from(rgb(249, 249, 249)), to(rgb(255, 255, 255)));background-image: -webkit-radial-gradient(50% 50%, rgb(255, 255, 255), rgb(249, 249, 249));background-image: -moz-radial-gradient(50% 50%, rgb(255, 255, 255), rgb(249, 249, 249));background-image: -ms-radial-gradient(50% 50%, rgb(255, 255, 255), rgb(249, 249, 249));background-image: radial-gradient(50% 50%, rgb(255, 255, 255), rgb(249, 249, 249));-webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;min-height: 12.875em; /* 206px? */}
 #MainKontakt ul.wrapper .box:hover {background:#fff;color:#222;background-image:none;}
