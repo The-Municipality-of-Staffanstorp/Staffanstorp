@@ -13,6 +13,10 @@
 <?php wp_list_comments('type=trackback&style=ol&callback=custom_track_callback'); ?>
 </ol>
 
+<?php if(function_exists('wp_paginate_comments')) {
+    wp_paginate_comments();
+} ?>
+
 <?php else : // or, if we don't have comments:
 if(!comments_open()) :
 ?>

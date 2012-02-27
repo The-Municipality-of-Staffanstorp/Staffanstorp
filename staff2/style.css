@@ -2,7 +2,7 @@
 Theme Name: Staffanstorp Blå
 Author: Johan Edlund
 Author URI: http://edlunddesign.com
-Version: 20120206
+Version: 20120227
 
 
 /* `Reset
@@ -773,7 +773,7 @@ html.hasFontSmoothing-true #Footer {font-family: "ff-meta-web-pro-1","ff-meta-we
 .wp-paginate .page {}
 .wp-paginate .prev, .wp-paginate .next {}
 /* style overrides for comments pagination */
-.wp-paginate-comments {}
+.wp-paginate-comments {margin:1.5em 0;}
 .wp-paginate-comments li {}
 .wp-paginate-comments a {}
 .wp-paginate-comments a:hover, .wp-paginate-comments a:active {}
