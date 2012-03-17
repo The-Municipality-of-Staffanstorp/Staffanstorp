@@ -9,7 +9,7 @@
 <meta http-equiv="imagetoolbar" content="false" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 <meta name="MSSmartTagsPreventParsing" content="true" />
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="google-site-verification" content="Pqe6URB91y9GpzLOVQsK7jiV8NTtekFRhawwWSSk4W4" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
