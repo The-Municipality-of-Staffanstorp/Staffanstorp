@@ -29,6 +29,8 @@ Uppe i högra hörnet finns en länk som öppnar en sajtkarta. Om du missat den 
 
 ## Plugins
 
+**OBS!** [Simple Section Navigation Widget](http://www.cmurrayconsulting.com/software/wordpress-simple-section-navigation/) används för navigering i högerspalten och tillägget måste vara aktiverat för att inte få ett felmeddelande.
+
 Följande tilläggsmoduler är aktiva:
 
 * [Akismet](http://akismet.com/)
