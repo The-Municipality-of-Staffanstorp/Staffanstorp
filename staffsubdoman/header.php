@@ -96,7 +96,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 global $blog_id;
 // Familjecentralen Paletten special logga - id 4
 if ($blog_id == 48) { ?>
-   <h1 id="Logo"><a tabindex="1" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+   <h1 id="Logo" class="paletten"><a tabindex="1" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
 <?php } else { ?>
    <h1 id="Logo"><a tabindex="1" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a><span class="logodiv"> | </span><em>Staffanstorps kommun</em></h1>
 <?php }?>

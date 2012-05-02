@@ -160,6 +160,10 @@ html.hasFontSmoothing-true #Toolbar ul {font-family: "ff-meta-web-pro-1","ff-met
 #Logo em {font-size:.8125em;padding-top:.2em;padding-left:.2em; color:#939B91;}
 #Logo .logodiv {color:#BBC3B5;}
 
+/* Familjecentralen Paletten ville ha en egen logga */
+#Logo.paletten {margin-top: .5em;}
+#Logo.paletten a {background: url(i/paletten.png) no-repeat;padding:20px 0 20px 50px;}
+
 /**** Search form ****/
 #Searchform {float:right;margin:0;width:24%;text-align:right;}
 #Searchform label:hover, #Searchform label:focus {background-position: 2px -3596px;color:#2e81b6;}
@@ -790,6 +794,7 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	
 	#SitemapWrapper, #Sitemap, #ToolbarWrapper, #Toolbar {display:none;}
 	#Logo {float:left;width:50%;}
+	#Logo.paletten {width:62%;}
 	#Searchform {width:35%;margin:1.2em 0 0 0;}
 	
 	#Searchform input{width:62%;}
