@@ -1,6 +1,7 @@
 <?php if ('open' == $post->comment_status) : ?>
 <div id="respond">
 <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
+<?php comment_id_fields(); ?>
 <fieldset>
 <legend>Lämna en kommentar</legend>
 
@@ -24,12 +25,10 @@
 </div>
 <?php endif; ?>
 
-
 <div class="<?php if($user_ID) : ?>form-logged-in<?php else : ?>form-right<?php endif; ?> clearfix">
 <p><label for="comment">Kommentar:</label><br />
 <textarea name="comment" id="comment" cols="100%" rows="10"></textarea></p>
 <p><button class="button" name="submit" type="submit" value="Skicka kommentar">Skicka</button></p>
-<?php comment_id_fields(); ?>
 <?php do_action('comment_form', $post->ID); ?>
 <!-- <p class="clear tecken">Du kan använda följande <abbr title="HyperText Markup Language">HTML</abbr> element: <code><?php echo allowed_tags(); ?></code></p> -->
 </div>

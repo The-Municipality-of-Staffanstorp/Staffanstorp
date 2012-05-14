@@ -13,6 +13,7 @@
 <meta name="google-site-verification" content="Pqe6URB91y9GpzLOVQsK7jiV8NTtekFRhawwWSSk4W4" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php wp_head();?>
 <!--[if ! lte IE 7]><!-->
 <link rel="stylesheet" type="text/css" media="screen" href="<?php $theme_data = get_theme_data(TEMPLATEPATH . '/style.css'); bloginfo('stylesheet_url'); echo '?' . $theme_data['Version']; ?>" />

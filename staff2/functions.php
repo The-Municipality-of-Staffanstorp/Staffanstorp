@@ -236,7 +236,8 @@ function enable_threaded_comments(){
 			wp_enqueue_script('comment-reply');
 		}
 }
-add_action('get_header', 'enable_threaded_comments');
+/* add_action('get_header', 'enable_threaded_comments'); */
+/* added above wp_head instead */
 
 /**** Comments ****/
 function custom_comments_callback($comment, $args, $depth) {

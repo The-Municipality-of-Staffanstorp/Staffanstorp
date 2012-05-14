@@ -9,8 +9,6 @@
 <h4 class="comments-title"><?php printf( _n( 'En kommentar till %2$s', '%1$s kommentarer till %2$s', get_comments_number(), 'twentyten' ), number_format_i18n( get_comments_number() ), '<em>' . get_the_title() . '</em>' ); ?></h4>
 <ol class="commentlist">
 <?php wp_list_comments('type=comment&style=ol&callback=custom_comments_callback'); ?>
-<?php wp_list_comments('type=pingback&style=ol&callback=custom_ping_callback'); ?>
-<?php wp_list_comments('type=trackback&style=ol&callback=custom_track_callback'); ?>
 </ol>
 
 <?php if(function_exists('wp_paginate_comments')) {
