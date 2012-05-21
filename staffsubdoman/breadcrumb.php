@@ -1,7 +1,23 @@
 <?php
 $sajturl = get_bloginfo('url');
 $sajtnamn = get_bloginfo('name');
-$currentyear = date("Y"); 
+$currentyear = date("Y");
+
+global $blog_id;
+if ($blog_id == 49) {
+   $resultatsida = true;
+}
+
+if($resultatsida && is_single()){
+  echo '<ul id="Resultatnav" class="clearfix">';
+  global $post;
+  $args = array( 'numberposts' => 100 );
+  $myposts = get_posts( $args );
+  foreach( $myposts as $post ) :	setup_postdata($post); ?>
+<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+  <?php endforeach;
+  echo '</ul>';
+}
 
 if (is_page() && !is_front_page() || is_single()) {
 	echo '<ul id="Breadcrumb" class="clearfix">';
@@ -20,7 +36,7 @@ if (is_page() && !is_front_page() || is_single()) {
 		echo '<li><a href="#">Fil</a></li>';
 	}
 	
-	if (is_single() && !is_attachment()){
+	if (is_single() && !is_attachment() && !$resultatsida){
 		echo '<li><a href="'.$sajturl.'/'.$currentyear.'/">Nyheter</a></li>';
 	}
 

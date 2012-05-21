@@ -2,7 +2,7 @@
 Theme Name: Staffanstorp Subdomäner Blå
 Author: Johan Edlund
 Author URI: http://edlunddesign.com
-Version: 0.989
+Version: 20120516
 */
 
 /* `Reset
@@ -59,6 +59,10 @@ html.hasFontSmoothing-true #Sidebar {float:right;width:24%;padding-top: 1em;font
 div.entry div.entry-meta-wrapper {float:left;width:29%;}
 div.entry .entry-body {float:right;width:64%;padding:0 2% 0 0;margin-left:.625em;}
 div.entry .entry-body-left {width:66%;padding:0;margin-left:0;}
+
+#Main.plussidebarbredd  {float:left;width:auto;}
+#Main.plussidebarbredd div.entry div.entry-meta-wrapper {width:25%;}
+#Main.plussidebarbredd div.entry .entry-body {width:73%;padding:0;}
 
 #FooterWrapper {background: #154d6a; position: relative; padding:1em 2em 2em 2em;}
 #Footer {color:#fff;margin:0 auto;max-width: 68.75em;}
@@ -185,6 +189,15 @@ html.hasFontSmoothing-true #Searchform button, html.hasFontSmoothing-true #respo
 
 /* `Main
 ---------------------------------------------------------------*/
+/* extra nav för resultatinlägg */
+#Resultatnav {margin:0 0 1em 0;text-align: center;}
+#Resultatnav li {float:left;padding:0;margin:.3em.8em .5em 0;height:auto;width:auto;text-align: center;background-image: none;}
+#Resultatnav li a {float:none;padding:.2em .5em;height:auto;width:auto;text-align: center;background:#DAE4D1; background: rgba(194,211,179,.4);-webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+#Resultatnav li a:hover {background: #D1D8CB;}
+#Resultatnav li a em {display:none;}
+#Resultatnav li a strong {display:block;padding:.2em;}
+
+
 /****  Feature ****/
 #Aktuellt {position:relative;display:block;padding:.625em;/* border:1px solid #E7E5E0; */border-bottom:none;margin:.7em 0 .6em 0;background:#fff;-webkit-box-shadow: 1px 1px 2px #C1C4BA;-moz-box-shadow: 1px 1px 2px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
 #Aktuellt p {margin:.5em 1em 0 0;}
@@ -265,6 +278,12 @@ td {padding: .6em 1em;line-height: 1.375em;}
 .odd {background-color:#FEFCF7;}
 tr:hover {background-color:#EAE8E5;}
 thead tr:hover {background-color: transparent;color: inherit;}
+
+
+#Main.plussidebarbredd table tr:nth-child(odd) {background-color:transparent;}
+#Main.plussidebarbredd table tr:nth-child(even) {background-color:#FEFCF7;}
+#Main.plussidebarbredd table thead {background-color:#E3EADD;}
+
 
 /**** Blockquote ****/
 blockquote {clear:both;font-size:1.0625em;font-style: italic;}
@@ -425,6 +444,10 @@ p span.relevanssi-query-term {background:#FDF20D;}
 #comments ol.commentlist li {padding:.5em 0 1em 0;background:transparent url(i/divider.gif) repeat-x bottom left;}
 #comments ul.comment-meta {float:left;background:none;width:17%;margin:1.3333em 0 0 .3em;padding:0;}
 #comments .comment-text, .reply {float:right;width:63%;padding:0 2% 0 0;margin-left:1%;}
+
+#Main.plussidebarbredd #comments ul.comment-meta {width:15%;}
+#Main.plussidebarbredd #comments .comment-text, .reply {width:70%;}
+
 #comments ol.commentlist {background:url(i/divider.gif) repeat-x top left;}
 #comments ol.commentlist li.thread-even{background-color: transparent;}
 #comments ol.commentlist li.thread-odd{background-color: #F2F1EC;}
@@ -799,18 +822,20 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	
 	#Searchform input{width:62%;}
 	/* nav */
+/*
 	#MainNav {margin:.7em 0 0 0;}
 	#MainNav li a {padding:.5em 0;height:auto;text-align: center;}
 	#MainNav li a em {display:none;}
 	#MainNav li a strong {display:block;padding:.769em 0 .769em 0;}
+*/
 	
 	#Aktuellt {padding:.625em .625em 1em .625em;}
 	#Aktuellt .featureText h2 {font-size: 1.5em;padding:0;margin:0;}
 	#Aktuellt .entry-meta{display:none;}
 	
 	/* entry */
-	div.entry div.entry-meta-wrapper {float:none;width:auto;margin:0;}
-	div.entry .entry-body {clear:both;float:none;width:99%;padding:.1em 0 0 0;margin-left:0;}
+	div.entry div.entry-meta-wrapper, #Main.plussidebarbredd div.entry div.entry-meta-wrapper {float:none;width:auto;margin:0;}
+	div.entry .entry-body, #Main.plussidebarbredd div.entry .entry-body {clear:both;float:none;width:99%;padding:.1em 0 0 0;margin-left:0;}
 	div.entry h2.entry-title {font-size: 1.5em;padding-bottom:.1em;}
 	.entry-body p.lank-bild a img {width:100%;}
 	
@@ -825,6 +850,7 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	div.polldaddy {margin:.3em 0 0 .3em;}
 	
 	#comments .comment-text, .reply {float:right;width:58%;padding:0 2% 0 0;margin-left:1%;}
+	#Main.plussidebarbredd #comments .reply {float:right;width:70%;padding:0 2% 0 0;}
 
 }/* end mediaquery */
 
@@ -850,7 +876,7 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 
 	#Aktuellt .featureText {float:none; width:auto;}
 	
-	#Main, #Sidebar {float:none;width:auto;clear:both;}
+	#Main, #Main.plussidebarbredd, #Sidebar {float:none;width:auto;clear:both;}
 	#ContentWrapper #Sidebar {float:none;width:auto;clear:both;}
 	
 	h3.entry-meta-verktyg, h3.entry-meta-dela, h3.entry-meta-bifogade {display: none;}
@@ -863,11 +889,15 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	#respond textarea {height:10em;width:100%;}
 	
 	/* comments */
-	#comments .comment-text, .reply {float:none;width:auto;padding:0;margin-left:0;}
-	#comments ul.comment-meta {float:none;background:none;width:auto;clear:both;}
+	#comments .comment-text, .reply  {float:none;width:auto;padding:0;margin-left:0;}
+	#comments ul.comment-meta, #Main.plussidebarbredd #comments ul.comment-meta {float:none;background:none;width:auto;clear:both;}
 	img.avatar{margin-left:0;}
 	#comments ol.children .avatar {margin-left:0;}
 	#comments ol.children ol.children .avatar {margin-left:0;}
+	
+	
+	#Main.plussidebarbredd #comments .comment-text {float:none;width:auto;}
+	#Main.plussidebarbredd #comments .reply {float:none;width:auto;}
 	
 	#LandskapsWrapper {position:relative;height:200px;background:#E3EADD;padding-top:2em;}
 	#Landskap1 {position:absolute;top:2em; left:0;z-index: 100; height:200px;width:100%;background:#E3EADD url(i/illustration-bak.png) repeat-x -30% 0;}
