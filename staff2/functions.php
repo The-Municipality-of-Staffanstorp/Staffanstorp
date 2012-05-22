@@ -11,11 +11,6 @@ function admin_maintenace_mode() {
 }
 //add_action('admin_head', 'admin_maintenace_mode');
 
-
-/**** Limit postrevisions ****/
-define('AUTOSAVE_INTERVAL', 300 ); // seconds
-define('WP_POST_REVISIONS', 5 );
-
 add_editor_style();
 
 /**** Add post thumbnail functionality ****/
