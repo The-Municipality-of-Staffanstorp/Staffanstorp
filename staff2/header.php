@@ -95,7 +95,7 @@ if (function_exists('has_parent') && !is_search()){
 </ul>
 
 <!-- Sitemap -->
-<?php include( TEMPLATEPATH . '/sitemap.php' ); ?>
+<?php //include( TEMPLATEPATH . '/sitemap.php' ); ?>
 
 <div id="ToolbarWrapper"><!-- start ToolbarWrapper -->
 <div id="Toolbar" class="clearfix"><!-- start Toolbar -->
