@@ -6,7 +6,7 @@
 <?php if (is_search()) : ?>
 <input type="text" name="s" id="s" value="<?php echo wp_specialchars($s, 1); ?>" />
 <?php else : ?>
-<input type="text" name="s" id="s" value="Vad söker du..." />
+<input type="text" name="s" id="s" value="Skriv ditt sökord här..." />
 <?php endif; ?>
 
 <button class="button" type="submit">Sök</button>

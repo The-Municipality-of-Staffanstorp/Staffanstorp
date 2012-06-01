@@ -153,8 +153,8 @@ $("a.lightboxforiframe").fancybox({
 });
 
 //---- Sökfält ----
-$("#s").attr("value", "Vad söker du...");
-var text = "Vad söker du...";
+$("#s").attr("value", "Skriv ditt sökord här...");
+var text = "Skriv ditt sökord här...";
 $("#s").focus(function() {
 	$(this).addClass("active");
 	if($(this).attr("value") == text) $(this).attr("value", "");
