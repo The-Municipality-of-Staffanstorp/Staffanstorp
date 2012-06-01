@@ -2,7 +2,7 @@
 Theme Name: Staffanstorp Subdomäner Blå
 Author: Johan Edlund
 Author URI: http://edlunddesign.com
-Version: 20120516
+Version: 20120601
 */
 
 /* `Reset
@@ -469,6 +469,8 @@ p span.relevanssi-query-term {background:#FDF20D;}
 p.nocomments {color:#888;}
 
 .reply {font-size: .9375em;}
+
+p.guidelines {color:#555;}
 
 /* pingback & trackback */
 p.pingbackdate {background-image: none; margin:0;line-height: 2em;color:#666;font-style:normal;font-size:.75em;letter-spacing: .083333em;border:none;padding:0;}
