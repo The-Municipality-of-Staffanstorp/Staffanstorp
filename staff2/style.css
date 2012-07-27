@@ -2,7 +2,7 @@
 Theme Name: Staffanstorp Blå
 Author: Johan Edlund
 Author URI: http://edlunddesign.com
-Version: 20120601
+Version: 20120704
 
 
 /* `Reset
@@ -966,11 +966,14 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 
 /*layouts smaller than 600px, iPhone and mobiles*/
 @media handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 600px){
+
+  /* hide 60 år */
+  a.sixty {display:none;}
+  a.sixty {width:0;height:0;margin:0;background:none;}
 	
 	#SitemapWrapper, #Sitemap, #ToolbarWrapper, #Toolbar, #Breadcrumb , #Sidflikar, #QuickInfoWrapper, #Aktuellt p.ribbon {display:none;}
 	
-	#HeaderWrapper {padding:.5em 2em 0 2em;background:#E3EADD url(i/hgrafik.gif) -30% 25% repeat-x;}
-    #Header {padding:12em 0 0 0;}
+  #Header {padding:0;}
 	
 	
 	#ContentWrapper{padding-bottom: 0;}
