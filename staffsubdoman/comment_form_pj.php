@@ -12,10 +12,10 @@
 
 <?php if($user_ID) : ?>
 <p class="logged-in-as">Inloggad som <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>">Logga ut &raquo;</a></p>
-<p>Under sommaren kan vi inte svara lika snabbt som under resten av året.</p>
+<!-- <p>Under sommaren kan vi inte svara lika snabbt som under resten av året.</p> -->
 <p class="guidelines">Genom att kommentera godkänner du våra <a href="http://staffanstorp.se/om-webbplatsen/att-skriva-kommentarer/">riktlinjer för kommentarer</a>.</p>
 <?php else : ?>
-<p>Under sommaren kan vi inte svara lika snabbt som under resten av året.</p> 
+<!-- <p>Under sommaren kan vi inte svara lika snabbt som under resten av året.</p>  -->
 <p class="guidelines">Genom att kommentera godkänner du våra <a href="http://staffanstorp.se/om-webbplatsen/att-skriva-kommentarer/">riktlinjer för kommentarer</a>.</p>
 
 <div class="form-left">
