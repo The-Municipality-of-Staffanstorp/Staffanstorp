@@ -5,7 +5,7 @@ function admin_maintenace_mode() {
     global $current_user;
     get_currentuserinfo();
     if($current_user->user_login != 'admin') { ?>
-			<style> .updated{margin:30px !important;} </style><?
+			<style> .updated{margin:30px !important;} </style><?php
 			die('<h3 id="message" class="updated">Underhållsarbete pågår.</h3>');
 		}
 }
@@ -440,14 +440,5 @@ function munge_mail_shortcode( $atts , $content=null ) {
 for ($i = 0; $i < strlen($content); $i++) $encodedmail .= "&#" . ord($content[$i]) . ';';
 return '<a href="mailto:'.$encodedmail.'">'.$encodedmail.'</a>';}
 add_shortcode('mailto', 'munge_mail_shortcode');
-
-
-/**** Enter maintenace mode ****/
-function maintenace_mode() {
-  if ( !current_user_can( 'edit_themes' ) || !is_user_logged_in() ) {
-    die('Underhållsarbete pågår.');
-  }
-}
-/* add_action('get_header', 'maintenace_mode'); */
 
 ?>

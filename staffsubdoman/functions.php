@@ -5,7 +5,7 @@ function admin_maintenace_mode() {
     global $current_user;
     get_currentuserinfo();
     if($current_user->user_login != 'admin') { ?>
-			<style> .updated{margin:30px !important;} </style><?
+			<style> .updated{margin:30px !important;} </style><?php
 			die('<h3 id="message" class="updated">Underhållsarbete pågår.</h3>');
 		}
 }
