@@ -2,7 +2,7 @@
 Theme Name: Staffanstorp Subdomäner Blå
 Author: Johan Edlund
 Author URI: http://edlunddesign.com
-Version: 20120601
+Version: 20121119
 */
 
 /* `Reset
@@ -177,7 +177,7 @@ html.hasFontSmoothing-true #Searchform input {font-family: "ff-meta-web-pro-1","
 
 
 #Searchform input:focus {background: #fff;color: #333;}
-#Searchform button, #respond button{display:block;float:right;width:27%;margin:0;font-family:Helvetica, Arial, sans-serif;letter-spacing:.1em;font-size: .75em;padding:.5em .5em .416666em .5em;color:#666;-webkit-box-shadow:1px 1px 2px #ddd;-moz-box-shadow: 1px 1px 2px #ddd;background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#cccccc));background: -moz-linear-gradient(top,#ffffff, #cccccc);border:1px solid #aaa; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius:3px;-webkit-transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out;transition: all 0.2s ease-out;}
+#Searchform button, #respond button{display:block;float:right;width:27%;margin:0;font-family:Helvetica, Arial, sans-serif;letter-spacing:.1em;font-size: .75em;padding:.5em .5em .416666em .5em;color:#666;-webkit-box-shadow:1px 1px 2px #ddd;-moz-box-shadow: 1px 1px 2px #ddd; box-shadow: 1px 1px 2px #ddd; background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#cccccc));background: -moz-linear-gradient(top,#ffffff, #cccccc);border:1px solid #aaa; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius:3px;-webkit-transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out;transition: all 0.2s ease-out;}
 html.hasFontSmoothing-true #Searchform button, html.hasFontSmoothing-true #respond button {font-family: "ff-meta-web-pro-1","ff-meta-web-pro-2",sans-serif;text-shadow: 0 1px 0 rgba(255, 255, 255, 1);}
 
 #Searchform button:hover, #respond button:hover, #Searchform button:focus, #respond button:focus {color:#555;border:1px solid #6f8b3a;}
@@ -192,14 +192,14 @@ html.hasFontSmoothing-true #Searchform button, html.hasFontSmoothing-true #respo
 /* extra nav för resultatinlägg */
 #Resultatnav {margin:0 0 1em 0;text-align: center;}
 #Resultatnav li {float:left;padding:0;margin:.3em.8em .5em 0;height:auto;width:auto;text-align: center;background-image: none;}
-#Resultatnav li a {float:none;padding:.2em .5em;height:auto;width:auto;text-align: center;background:#DAE4D1; background: rgba(194,211,179,.4);-webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+#Resultatnav li a {float:none;padding:.2em .5em;height:auto;width:auto;text-align: center;background:#DAE4D1; background: rgba(194,211,179,.4);-webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA; box-shadow: 1px 1px 3px #C1C4BA; -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
 #Resultatnav li a:hover {background: #D1D8CB;}
 #Resultatnav li a em {display:none;}
 #Resultatnav li a strong {display:block;padding:.2em;}
 
 
 /****  Feature ****/
-#Aktuellt {position:relative;display:block;padding:.625em;/* border:1px solid #E7E5E0; */border-bottom:none;margin:.7em 0 .6em 0;background:#fff;-webkit-box-shadow: 1px 1px 2px #C1C4BA;-moz-box-shadow: 1px 1px 2px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+#Aktuellt {position:relative;display:block;padding:.625em;/* border:1px solid #E7E5E0; */border-bottom:none;margin:.7em 0 .6em 0;background:#fff;-webkit-box-shadow: 1px 1px 2px #C1C4BA;-moz-box-shadow: 1px 1px 2px #C1C4BA; box-shadow: 1px 1px 2px #C1C4BA; -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
 #Aktuellt p {margin:.5em 1em 0 0;}
 #Aktuellt p.ribbon {position: absolute; top:-10px;left:-12px;width:143px;height:77px;background:url(i/aktuelltlapp.png) no-repeat;text-indent:-999em;margin:0;z-index: 200;}
 
@@ -240,7 +240,7 @@ text-decoration: none;color:#666;outline:none;border:none;}
 ---------------------------------------------------------------*/
 /* button */
 a.button {padding-top: 1em;font-size: .8125em;margin:0 0 2em 0;}
-a.button {font-size: .8125em;font-weight: normal;padding: 5px 12px 6px 12px;color: #666;-webkit-box-shadow: 1px 1px 2px #DBDED3;-moz-box-shadow: 1px 1px 2px #DBDED3;background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#cccccc));background: -moz-linear-gradient(top,#ffffff, #cccccc);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cccccc');border:1px solid #ddd; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius:3px;}
+a.button {font-size: .8125em;font-weight: normal;padding: 5px 12px 6px 12px;color: #666;-webkit-box-shadow: 1px 1px 2px #DBDED3; -moz-box-shadow: 1px 1px 2px #DBDED3; box-shadow: 1px 1px 2px #DBDED3; background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#cccccc));background: -moz-linear-gradient(top,#ffffff, #cccccc);filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cccccc');border:1px solid #ddd; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius:3px;}
 a.button:hover {border-color: #6A7A56;background-color: #f5f5f5;color:#333;}
 
 p, ul {line-height:1.5625em; margin:1em 0;}
@@ -291,7 +291,7 @@ blockquote p {color:#666;padding:.5em 1em;}
 
 /**** Bilder ****/
 .lank-bild {margin:0;background-image: none;}
-.lank-bild a{display:block;padding:6px;border-bottom:none;margin:.5em 0;background:#fff;-webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.lank-bild a{display:block;padding:6px;border-bottom:none;margin:.5em 0;background:#fff;-webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA; box-shadow: 1px 1px 3px #C1C4BA; -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
 a.lightbox {}
 a.lankpil {}
 .lank-bild a:hover, a.lightbox:hover, a.lankpil:hover{background:#f7f5f1;}
@@ -383,7 +383,7 @@ p.arkiv {text-align:left;margin-left:.625em;}
 .entry-body p.lank-bild {margin-left:0;margin-right: 0;}
 
 /* captions */
-.entry-body .wp-caption {margin:1em 0 0 0;background:#fff;padding:.3125em .375em 0 .3125em;text-align: center;border:none; -webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.entry-body .wp-caption {margin:1em 0 0 0;background:#fff;padding:.3125em .375em 0 .3125em;text-align: center;border:none; -webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA; box-shadow: 1px 1px 3px #C1C4BA; -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
 .entry-body .wp-caption p {margin: 0 0 1em 0;border:none;border:none;padding: 1em 0;font-size: .92857em; font-style: italic;color:#555;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
 .entry-body .wp-caption a{border:none;}
 .entry-body .wp-caption a:hover, .entry-body .wp-caption a:focus{background:#fff;}
@@ -400,7 +400,7 @@ p.arkiv {text-align:left;margin-left:.625em;}
 /* bilder igen */
 
 a img.alignleft, a img.alignright, a img.alignnone, a img.aligncenter
-{width:40%;margin:0 .5em 0 -6px;padding:6px; background: #fff;-webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+{width:40%;margin:0 .5em 0 -6px;padding:6px; background: #fff;-webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA; box-shadow: 1px 1px 3px #C1C4BA; -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
 a img.alignnone{width:100%;margin:0 -6px 1em -6px;}
 a img.aligncenter{width:40%;margin:0 -6px 1em -6px;}
 a img.alignright{margin:0 -6px 0 .5em;}
@@ -455,7 +455,7 @@ p span.relevanssi-query-term {background:#FDF20D;}
 #comments ol.children li.depth-2 ul.comment-meta {}
 /* #comments ol.children li.odd {background:transparent;} */
 
-.avatar {display:block;float:left;padding:6px;margin:1.1em .625em;background:#fff;-webkit-box-shadow: 1px 1px 2px #C1C4BA;-moz-box-shadow: 1px 1px 2px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+.avatar {display:block;float:left;padding:6px;margin:1.1em .625em;background:#fff;-webkit-box-shadow: 1px 1px 2px #C1C4BA;-moz-box-shadow: 1px 1px 2px #C1C4BA; box-shadow: 1px 1px 2px #C1C4BA; -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
 .gravatarHolder a:link, .gravatarHolder a:visited, .gravatarHolder a:hover, .gravatarHolder a:focus, .gravatarHolder a:active {border:none;background: transparent;}
 
 #comments ol.children .avatar {margin:1.1em .625em 1.1em 1.625em;}
@@ -522,7 +522,7 @@ html.hasFontSmoothing-true #respond p.tecken {font-family:"ff-meta-web-pro-1","f
 
 #Sidebar p {margin:0 .3846em;line-height: 1.923em;color: #555;}
 #Sidebar .lank-bild {margin:1em 0 0 0;}
-#Sidebar .lank-bild a {display:block;padding:6px;/* border:1px solid #E7E5E0; */border-bottom:none;margin:.5em 0;background:#fff;-webkit-box-shadow: 1px 1px 2px #C1C4BA;-moz-box-shadow: 1px 1px 2px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+#Sidebar .lank-bild a {display:block;padding:6px;/* border:1px solid #E7E5E0; */border-bottom:none;margin:.5em 0;background:#fff;-webkit-box-shadow: 1px 1px 2px #C1C4BA;-moz-box-shadow: 1px 1px 2px #C1C4BA; box-shadow: 1px 1px 2px #C1C4BA; -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
 
 li.widget-container {margin: 0 0 2em 0;}
 li.widget-container ul li{margin:0 0 .5em 0;padding-left: 1.7em;background:transparent url(i/ikoner.png) 5px -494px no-repeat;}
@@ -560,7 +560,7 @@ li.widget_recent_comments ul li{color:#555;margin:0 0 .5em 0;padding-left: 1.538
 li.widget_recent_comments ul li a{border:none;}
 
 /* Öppettider */
-#Sidebar li.oppettider {padding-bottom:13px;background:#fff;-webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+#Sidebar li.oppettider {padding-bottom:13px;background:#fff;-webkit-box-shadow: 1px 1px 3px #C1C4BA;-moz-box-shadow: 1px 1px 3px #C1C4BA;box-shadow: 1px 1px 3px #C1C4BA;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
 #Sidebar li.oppettider ul {}
 #Sidebar li.oppettider ul li {background-image: none;margin:0 1.5385em;display:block;padding:.5em 0;border-bottom: 1px dotted #ccc;overflow: hidden;}
 #Sidebar li.oppettider ul li em {float: right;margin: 0 .1em 0 .2em;color: #6A7A56;}
@@ -680,7 +680,7 @@ html.hasFontSmoothing-true #Footer {font-family: "ff-meta-web-pro-1","ff-meta-we
 /* ` Google Calendar Events Plugin
 ---------------------------------------------------------------*/
 /* PAGE GRID */
-.gce-widget-grid {padding-bottom:5px; background:#fff; -webkit-box-shadow:1px 1px 3px #C1C4BA; -moz-box-shadow:1px 1px 3px #C1C4BA; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; background-image:none; }
+.gce-widget-grid {padding-bottom:5px; background:#fff; -webkit-box-shadow:1px 1px 3px #C1C4BA; -moz-box-shadow:1px 1px 3px #C1C4BA; box-shadow:1px 1px 3px #C1C4BA; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; background-image:none; }
 /* li.widget_gce_widget h3 {border-bottom:none; margin-left:1.4286em; margin-right:1.4286em; } */
 li.widget_gce_widget div.hr {margin:0 0 1em 0;}
 .gce-page-grid .gce-calendar {/* Main calendar table */
