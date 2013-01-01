@@ -2,7 +2,7 @@
 Theme Name: Staffanstorp Blå
 Author: Johan Edlund
 Author URI: http://edlunddesign.com
-Version: 20121119
+Version: 20130101
 
 /* `Reset
  * http://meyerweb.com/eric/tools/css/reset/ -- v1.0 | 20080212 
@@ -47,7 +47,7 @@ html.hasFontSmoothing-true body {color:#222;background: #f7f5f1;text-rendering: 
 #Toolbar {text-shadow:none;margin:0 auto;padding:0;max-width:68.75em;}
 
 #HeaderWrapper {padding:.5em 2em 0 2em;background:#E3EADD url(i/hgrafik.gif) -30% 25% repeat-x;}
-#Header {position:relative;margin:0 auto;padding:5em 0 0 0;max-width:68.75em;}
+#Header {position:relative;margin:0 auto;padding:0;max-width:68.75em;}
 
 #ContentWrapperWrapper {border-top:1px solid #fff;}
 #ContentWrapper {margin:0 auto;max-width:68.75em;padding:0 2em 2em 2em;}
