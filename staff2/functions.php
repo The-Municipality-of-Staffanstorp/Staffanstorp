@@ -21,6 +21,14 @@ add_image_size( 'medium', 528, 297, true ); // single post size
 add_image_size( 'large', 1440, 1024 ); // lightbox size 
 }
 
+/**** Add title attribute back to gallery images -- new for WP 3.5 ****/
+/**** http://wordpress.org/support/topic/restoring-titles-to-inserted-images-in-wordpress-35 ****/
+function my_image_titles($atts,$img) {
+	$atts['title'] = trim(strip_tags( $img->post_title ));
+	return $atts;
+}
+add_filter('wp_get_attachment_image_attributes','my_image_titles',10,2);
+
 /**** Enqueue jquery ****/ 
 if( !is_admin()){
 	wp_deregister_script('jquery');
