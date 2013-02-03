@@ -94,9 +94,6 @@ if (function_exists('has_parent') && !is_search()){
 <?php if (is_page()) : ?><li><a href="#Sidebar">Hoppa till undernavigering</a></li><?php endif; ?>
 </ul>
 
-<!-- Sitemap -->
-<?php //include( TEMPLATEPATH . '/sitemap.php' ); ?>
-
 <div id="ToolbarWrapper"><!-- start ToolbarWrapper -->
 <div id="Toolbar" class="clearfix"><!-- start Toolbar -->
 <?php if ( is_user_logged_in()) : ?>
