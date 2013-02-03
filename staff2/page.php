@@ -142,7 +142,9 @@ if (has_post_thumbnail()) {
 </div>
 
 </div><!-- end entry -->
-<?php endwhile ?>	
+<?php endwhile ?>
+
+<p class="hoppa-till-navigering clearfix"><a href="#Sidebar" class="hoppa-till-navigering__knapp">Hoppa till navigering</a><p>
 
 <?php comments_template(); ?>
 
