@@ -26,6 +26,7 @@
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/fancybox/jquery.fancybox-1.3.4.js<?php echo '?' . $theme_data['Version']; ?>"></script>
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/js/fancybox/jquery.fancybox-1.3.4.css<?php echo '?' . $theme_data['Version']; ?>" type="text/css" media="screen" />
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/staff.js<?php echo '?' . $theme_data['Version']; ?>"></script>
+
 <!--<![endif]-->
 <!--[if lte IE 6]>
 <link rel="stylesheet" type="text/css" media="screen, projection" href="http://universal-ie6-css.googlecode.com/files/ie6.1.1.css">
@@ -47,6 +48,7 @@
 <link rel="stylesheet" type="text/css" media="screen, projection" href="<?php bloginfo('template_directory'); ?>/css/ie8.css" />
 <![endif]-->
 
+<script type="text/javascript" src="http://www.talandewebb.se/ba.se.js"></script>
 <script type="text/javascript">
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-22995022-1']);
@@ -112,7 +114,8 @@ if (function_exists('has_parent') && !is_search()){
 
 <ul class="right">
 <li><a class="kontakt" href="<?php bloginfo('url'); ?>/vision/kontakt/">Kontakt</a></li>
-<li><a class="rss" href="<?php bloginfo('rss2_url'); ?>">RSS</a> <a class="vadarrss" href="<?php bloginfo('url'); ?>/om-webbplatsen/vad-ar-rss/">(Vad är RSS?)</a></li>
+<li><a class="talandewebb" href="<?php bloginfo('url'); ?>/om-webbplatsen/talande-webb/">Talande webb</a></li>
+<li><a class="rss" href="<?php bloginfo('rss2_url'); ?>">RSS</a></li>
 </ul>
 </div><!-- end Toolbar -->
 </div><!-- end ToolbarWrapper -->

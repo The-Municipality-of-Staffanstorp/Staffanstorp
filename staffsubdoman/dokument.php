@@ -31,7 +31,7 @@ Template Name: Dokument
 
 <h3 class="entry-meta-verktyg">Verktyg</h3>
 <ul class="entry-meta entry-meta-tools">
-<li class="lyssna"><a href="http://app.readspeaker.com/cgi-bin/rsent?customerid=5595&amp;lang=sv_se&amp;output=template&amp;url=<?php the_permalink(); ?>" onclick="openAndRead(); return false;" accesskey="L" target="rs" title="Lyssna p&aring; sidans text med ReadSpeaker">Lyssna</a></li>
+<li class="lyssna"><a id="bapluslogo" class="logo" title="Aktivera talande Webb" onclick="toggleBar();" href="#">Aktivera talande Webb</a></li>
 <?php edit_post_link('Redigera &raquo;', '<li class="entry-meta-redigera">', '</li>'); ?>
 </ul>
 

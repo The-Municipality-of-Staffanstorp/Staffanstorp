@@ -17,9 +17,7 @@ Template Name Posts: PlusSidebarBredd
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
 <div class="entry clearfix"><!-- start entry -->
-<!-- RSPEAK_START -->
 <h2 class="entry-title"><?php $customField = get_post_custom_values("underrubrik");if (isset($customField[0])){echo $customField[0];} else { the_title();} ?></h2>
-<!-- RSPEAK_STOP -->
 
 <div class="entry-meta-wrapper"><!-- start entry-meta-wrapper -->
 <ul class="entry-meta">
@@ -35,7 +33,7 @@ $year  = get_the_time('Y');?>
 
 <h3 class="entry-meta-verktyg">Verktyg</h3>
 <ul class="entry-meta entry-meta-tools">
-<li class="lyssna"><a href="http://app.readspeaker.com/cgi-bin/rsent?customerid=5595&amp;lang=sv_se&amp;output=template&amp;url=<?php the_permalink(); ?>" onclick="openAndRead(); return false;" accesskey="L" target="rs" title="Lyssna p&aring; sidans text med ReadSpeaker">Lyssna</a></li>
+<li class="lyssna"><a id="bapluslogo" class="logo" title="Aktivera talande Webb" onclick="toggleBar();" href="#">Aktivera talande Webb</a></li>
 <?php edit_post_link('Redigera &raquo;', '<li class="entry-meta-redigera">', '</li>'); ?>
 </ul>
 
@@ -61,9 +59,7 @@ if (has_post_thumbnail()) {
 	$fullSrc = wp_get_attachment_image_src(get_post_thumbnail_id(), 'large');
 	echo '<p class="lank-bild"><a class="lightbox" href="' . $fullSrc[0] . '">' . clean_wp_width_height(get_the_post_thumbnail($post->ID, 'medium')) . '</a></p>';
 } ?>
-<!-- RSPEAK_START -->
 <?php the_content(); ?>
-<!-- RSPEAK_STOP -->
 <?php $arkivURL = get_post_custom_values("arkivURL");
 if (isset($arkivURL[0])){
 echo '<p><a href="'.$arkivURL[0].'">'.$sajtnamn.'s gamla sida</a></p>';}

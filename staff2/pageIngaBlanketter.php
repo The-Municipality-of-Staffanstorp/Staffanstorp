@@ -31,7 +31,7 @@ Template Name: Utan lista med dokument/blanketter
 
 <h3 class="entry-meta-verktyg">Verktyg</h3>
 <ul class="entry-meta entry-meta-tools">
-<li class="lyssna"><a href="#">Lyssna</a></li>
+<li class="lyssna"><a id="bapluslogo" class="logo" title="Aktivera talande Webb" onclick="toggleBar();" href="#">Aktivera talande Webb</a></li>
 <?php edit_post_link('Redigera &raquo;', '<li class="entry-meta-redigera">', '</li>'); ?>
 </ul>
 
@@ -82,7 +82,9 @@ the_content(); ?>
 </div>
 
 </div><!-- end entry -->
-<?php endwhile ?>	
+<?php endwhile ?>
+
+<p class="hoppa-till-navigering clearfix"><a href="#Sidebar" class="hoppa-till-navigering__knapp">Hoppa till navigering</a></p>
 
 <?php comments_template(); ?>
 

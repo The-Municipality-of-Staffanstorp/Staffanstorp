@@ -30,9 +30,9 @@
 
 
 /*************************************************
-**  ReadSpeaker 
+**  Browsealoud - (http://www.talandewebb.se)
 *************************************************/
-function rsTextSelection(){if(document.getSelection){var selectedString=document.getSelection()}else if(document.all){var selectedString=document.selection.createRange().text}else if(window.getSelection){var selectedString=window.getSelection()}document.rs_form.selectedhtml.value=selectedString;if(document.rs_form.url){if(!document.rs_form.url.value){if(window.location.href){document.rs_form.url.value=window.location.href}else if(document.location.href){document.rs_form.url.value=document.location.href}}}}function copyselected(){setTimeout("rsTextSelection()",50);return true}function openAndRead(){window.open('','rs','width=310,height=120,toolbar=0');setTimeout("document.rs_form.submit();",500)}document.onmouseup=copyselected;document.onkeyup=copyselected;
+
 
 
 /*************************************************
@@ -198,29 +198,11 @@ $("a.karta").fancybox({
 		'overlayColor' : '#111'
 });
 
-
-
 //---- Folder button ----
 $('ul.folder > li').click(function() {
 	$(this).children('ul').toggle("fast");
 });
 $("ul.folder > li ul").hide("fast");
-
-/*
-$('ul.folder > li').hover(function() {
-	$(this).css('color', 'red');
-});
-*/
-/*
-$('ul.folder > li strong').prepend('<a class="#">');
-$('ul.folder > li ul').before('</a>');
-*/
-/*
-$("ul.folder > li strong").each(function() {
-    var year = $(this).text();
-    $(this).html('<a href="#">' + year + '</a>');
-});
-*/
 
 
 });//end document ready

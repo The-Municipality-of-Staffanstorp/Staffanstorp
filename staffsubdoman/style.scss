@@ -1,8 +1,8 @@
-/*
+/*!
 Theme Name: Staffanstorp Subdomäner Blå
 Author: Johan Edlund
 Author URI: http://edlunddesign.com
-Version: 20130201
+Version: 20130924
 */
 
 /* `Reset
@@ -154,6 +154,9 @@ html.hasFontSmoothing-true #Toolbar ul {font-family: "ff-meta-web-pro-1","ff-met
 #Toolbar li.tillbaka {padding-left:0;}
 #Toolbar li.tillbaka a {padding-left:1.8em;background:url(i/ikoner.png) 0 -2900px no-repeat;}
 #Toolbar li.tillbaka a:hover, #Toolbar li.tillbaka a:focus {color:#fff;/* background-position: 0 -2901px; */}
+
+#Toolbar a.talandewebb {padding-left:1.8em;background:url(i/talandewebb.png) no-repeat;}
+#Toolbar a.talandewebb:hover, #Toolbar a.vadarrss:focus {color:#fff;background-position: 0 -100px;}
 
 /* `Header
 ---------------------------------------------------------------*/
@@ -847,9 +850,9 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	div.entry div.entry-meta-wrapper ul.entry-meta {margin:0;padding-bottom: 1.4em;clear:both;}
 	.entry-meta li {float:left;margin-right:1em;}
 	
-	h3.entry-meta-verktyg, h3.entry-meta-dela, h3.entry-meta-bifogade {display: none;}
+  h3.entry-meta-verktyg, h3.entry-meta-dela, h3.entry-meta-bifogade {display: none;}
 	ul.entry-meta-blanketter, ul.entry-meta-tools {padding:.4em 0;margin:1em 0;background:transparent url(i/divider.gif) repeat-x 0 3px;}
-	ul.entry-meta-blanketter, li.entry-meta-kommentarer, ul.entry-meta-tools {display:none;}
+	ul.entry-meta-blanketter, li.entry-meta-kommentarer {display:none;}
 	h3.entry-meta-betyg {background: url(i/ikoner.png) 0 -3498px no-repeat;color:#666;margin-top:.6em;clear:both;}
 	div.polldaddy {margin:.3em 0 0 .3em;}
 	
@@ -883,9 +886,11 @@ p.alla a:active { text-decoration:none; color:#583CBE; background-color:#E8ECE1;
 	#Main, #Main.plussidebarbredd, #Sidebar {float:none;width:auto;clear:both;}
 	#ContentWrapper #Sidebar {float:none;width:auto;clear:both;}
 	
-	h3.entry-meta-verktyg, h3.entry-meta-dela, h3.entry-meta-bifogade {display: none;}
-	ul.entry-meta-blanketter, ul.entry-meta-tools {padding:.4em 0;margin:1em 0;background:transparent url(i/divider.gif) repeat-x 0 3px;}
-	ul.entry-meta-blanketter, li.entry-meta-kommentarer, ul.entry-meta-tools {display:none;}
+	
+  h3.entry-meta-bifogade, h3.entry-meta-dela, h3.entry-meta-betyg {display: none;}
+	ul.entry-meta-blanketter, div.entry-meta-share, li.entry-meta-etiketter, li.entry-meta-kategori, li.entry-meta-kommentarer {display:none;}
+	ul.entry-meta-blanketter, li.entry-meta-kommentarer, li.entry-meta-redigera, li.skrivut {display:none;}
+  .entry-meta-tools li.lyssna {padding: .2em 0;}
 	
 	/* comments form */
 	.form-logged-in, .form-right, .form-left {float:none;width:97%;}

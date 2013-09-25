@@ -18,9 +18,7 @@ Template Name: Kontakt
 <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
 <div class="entry clearfix"><!-- start entry -->
-<!-- RSPEAK_START -->
 <h2 class="entry-title">Kontakt <span class="amp">&amp;</span> Synpunkter</h2>
-<!-- RSPEAK_STOP -->
 <div class="entry-meta-wrapper"><!-- start entry-meta-wrapper -->
 
 <form name="rs_form" action="http://app.readspeaker.com/cgi-bin/rsent" method="post" target="rs">
@@ -39,9 +37,7 @@ if (has_post_thumbnail()) {
 	$fullSrc = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full');
 	echo '<p class="lank-bild"><a class="lightbox" href="' . $fullSrc[0] . '">' . clean_wp_width_height(get_the_post_thumbnail($post->ID, 'medium')) . '</a></p>';
 } ?>
-<!-- RSPEAK_START -->
 <?php the_content();?>
-<!-- RSPEAK_STOP -->
 </div>
 
 </div><!-- end entry -->

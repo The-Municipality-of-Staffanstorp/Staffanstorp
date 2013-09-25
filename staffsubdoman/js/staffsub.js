@@ -28,12 +28,6 @@
 
 
 /*************************************************
-**  ReadSpeaker 
-*************************************************/
-function rsTextSelection(){if(document.getSelection){var selectedString=document.getSelection()}else if(document.all){var selectedString=document.selection.createRange().text}else if(window.getSelection){var selectedString=window.getSelection()}document.rs_form.selectedhtml.value=selectedString;if(document.rs_form.url){if(!document.rs_form.url.value){if(window.location.href){document.rs_form.url.value=window.location.href}else if(document.location.href){document.rs_form.url.value=document.location.href}}}}function copyselected(){setTimeout("rsTextSelection()",50);return true}function openAndRead(){window.open('','rs','width=310,height=120,toolbar=0');setTimeout("document.rs_form.submit();",500)}document.onmouseup=copyselected;document.onkeyup=copyselected;
-
-
-/*************************************************
 **  GCE
 *************************************************/
 function gce_ajaxify(target,feed_ids,title_text,type){jQuery('#'+target+' .gce-change-month').click(function(){var month_year=jQuery(this).attr('name').split('-',2);jQuery('#'+target+' caption').html(GoogleCalendarEvents.loading);jQuery.get(GoogleCalendarEvents.ajaxurl,{action:'gce_ajax',gce_type:type,gce_feed_ids:feed_ids,gce_title_text:title_text,gce_widget_id:target,gce_month:month_year[0],gce_year:month_year[1]},function(data){if(type=='widget'){jQuery('#'+target).html(data)}else{jQuery('#'+target).replaceWith(data)}gce_tooltips('#'+target+' .gce-has-events')})})}function gce_tooltips(target_items){jQuery(target_items).each(function(){jQuery(this).qtip({content:jQuery(this).children('.gce-event-info'),position:{corner:{target:'center',tooltip:'bottomLeft'},adjust:{screen:true}},hide:{fixed:true,delay:100,effect:{length:0}},show:{solo:true,delay:0,effect:{length:0}},style:{padding:"0",classes:{tooltip:'gce-qtip',tip:'gce-qtip-tip',title:'gce-qtip-title',content:'gce-qtip-content',active:'gce-qtip-active'},border:{width:0}}})})}

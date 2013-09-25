@@ -45,6 +45,7 @@
 <link rel="stylesheet" type="text/css" media="screen, projection" href="<?php bloginfo('template_directory'); ?>/css/ie8.css" />
 <![endif]-->
 
+<script type="text/javascript" src="http://www.talandewebb.se/ba.se.js"></script>
 <script type="text/javascript">
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-22995022-1']);
@@ -82,6 +83,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </ul>
 
 <ul class="right">
+<li><a class="talandewebb" href="http://staffanstorp.se/om-webbplatsen/talande-webb/">Talande webb</a></li>
 <li><a class="rss" href="<?php bloginfo('rss2_url'); ?>">RSS</a></li>
 </ul>
 
