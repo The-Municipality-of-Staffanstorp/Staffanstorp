@@ -1,5 +1,7 @@
 # WordPress teman för Staffanstorp.se
 
+jQuery 1.4.2 removed from both staff2 and staffsubdoman themes (**2023**-08-01).
+
 jQuery 1.12.4 laddas istället för 1.4.2 då GitHub security alert digest inte gillar't annars. Ingen aning om temat funkar efter denna ändring. (**2023**-01-3).
 
 ## Allmänt
