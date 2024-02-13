@@ -36,9 +36,9 @@ if (!is_admin()) {
   wp_deregister_script("jquery");
   wp_register_script(
     "jquery",
-    "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js",
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js",
     false,
-    "1.12.4"
+    "3.7.1"
   );
   wp_enqueue_script("jquery");
 }
@@ -106,10 +106,10 @@ if (!function_exists("base_extended_editor_mce_buttons")) {
     ];
     /* WordPress Default
 		return array(
-			'bold', 'italic', 'strikethrough', 'separator', 
-			'bullist', 'numlist', 'blockquote', 'separator', 
-			'justifyleft', 'justifycenter', 'justifyright', 'separator', 
-			'link', 'unlink', 'wp_more', 'separator', 
+			'bold', 'italic', 'strikethrough', 'separator',
+			'bullist', 'numlist', 'blockquote', 'separator',
+			'justifyleft', 'justifycenter', 'justifyright', 'separator',
+			'link', 'unlink', 'wp_more', 'separator',
 			'spellchecker', 'fullscreen', 'wp_adv'
 		); */
   }
@@ -124,10 +124,10 @@ if (!function_exists("base_extended_editor_mce_buttons_2")) {
     return [];
     /* WordPress Default
 		return array(
-			'formatselect', 'underline', 'justifyfull', 'forecolor', 'separator', 
-			'pastetext', 'pasteword', 'removeformat', 'separator', 
-			'media', 'charmap', 'separator', 
-			'outdent', 'indent', 'separator', 
+			'formatselect', 'underline', 'justifyfull', 'forecolor', 'separator',
+			'pastetext', 'pasteword', 'removeformat', 'separator',
+			'media', 'charmap', 'separator',
+			'outdent', 'indent', 'separator',
 			'undo', 'redo', 'wp_help'
 		); */
   }
@@ -353,7 +353,7 @@ function custom_comments_callback($comment, $args, $depth)
     "depth" => $depth,
     "max_depth" => $args["max_depth"],
   ])
-); ?> 
+); ?>
 </div>
 <div class="clear"></div>
 </div>
@@ -506,7 +506,7 @@ if (!current_user_can("edit_users")) {
 function remove_dashboard_widgets()
 {
   global $wp_meta_boxes;
-  /* 	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']); 
+  /* 	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);
 	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
  	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']); */
   unset($wp_meta_boxes["dashboard"]["normal"]["core"]["dashboard_plugins"]);
